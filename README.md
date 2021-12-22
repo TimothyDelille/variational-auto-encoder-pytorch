@@ -2,7 +2,7 @@
 
 After reading the [Variational Auto-Encoder paper](https://arxiv.org/abs/1312.6114), I wanted to check if I could reproduce the results, so I implemented it using PyTorch (Lightning). I tried to follow the paper closely and trained on the MNIST dataset. I then thought it would be cool to learn the latent representation of [CryptoPunks](https://www.larvalabs.com/cryptopunks).
 
-## Auto-encoding crypto punks
+## Auto-encoding CryptoPunks
 
 <p align="center">
  <img src="./visualization_imgs/punks_learned_manifold_latent_variables=2.png" width=500/>
@@ -11,7 +11,7 @@ After reading the [Variational Auto-Encoder paper](https://arxiv.org/abs/1312.61
 </p>
 
 <p align="center">
- <img src="./visualization_imgs/punks_reconstruction_latent_variables=20.png" width=200/>
+ <img src="./visualization_imgs/punks_reconstruction_latent_variables=20.png" width=100/>
     <br>
     <em>Left column: original sampled CryptoPunks. Right column: decoded CryptoPunks (using 20 dimensional latent representation)</em>
 </p>
