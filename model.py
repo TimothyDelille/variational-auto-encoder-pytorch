@@ -4,15 +4,10 @@ import torch
 import torch.nn as nn
 from einops.layers.torch import Rearrange
 
-LATENT_VARIABLES = 2
-INPUT_DIM = 28
-NUM_CHANNELS = 1
-HIDDEN_UNITS = 500
-
 INPUT_DIM = 24
 NUM_CHANNELS = 3
 LATENT_VARIABLES = 2
-
+HIDDEN_UNITS = 500
 
 class GaussianMLPEncoder(pl.LightningModule):
     def __init__(self, input_size: int, hidden_units: int, latent_variables: int):
