@@ -5,13 +5,13 @@ After reading the [Variational Auto-Encoder paper](https://arxiv.org/abs/1312.61
 ## Auto-encoding crypto punks
 
 <p align="center">
- <img src="./visualization_imgs/punks_learned_manifold_latent_variables=2.png" width=200 height=200 />
+ <img src="./visualization_imgs/punks_learned_manifold_latent_variables=2.png" width=200/>
     <br>
     <em>Learned manifold on the CryptoPunks dataset using a 2D latent representation.</em>
 </p>
 
 <p align="center">
- <img src="./visualization_imgs/punks_reconstruction_latent_variables=20.png" width=200 height=200 />
+ <img src="./visualization_imgs/punks_reconstruction_latent_variables=20.png" width=200/>
     <br>
     <em>Left column: original sampled CryptoPunks. Right column: decoded CryptoPunks (using 20 dimensional latent representation)</em>
 </p>
